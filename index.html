@@ -1,0 +1,763 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verificar antes de confiar</title>
+<meta name="description" content="Página de apoio do curso Verificar antes de confiar: IA aplicada ao trabalho com evidências, para técnicos dos PALOP.">
+<style>
+:root{--fundo:#F7F5F0;--papel:#FFFFFF;--tinta:#1D2B33;--suave:#5C6B73;--petroleo:#1F4E5F;--petroleo-2:#163B48;--laranja:#D96C2B;--laranja-bg:#FBEDE3;--linha:#DDD8CE;--raio:10px}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--fundo);color:var(--tinta);font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+a{color:var(--petroleo);text-underline-offset:2px}
+header{background:var(--petroleo);color:#fff;padding:28px 16px 22px}
+header .in,main,nav .in,footer .in{max-width:860px;margin:0 auto}
+header .tracinho{width:56px;height:5px;background:var(--laranja);border-radius:3px;margin-bottom:14px}
+header h1{margin:0;font-size:2rem;line-height:1.15}
+header p{margin:.4rem 0 0;font-size:1.1rem;opacity:.92}
+nav{position:sticky;top:0;z-index:5;background:var(--petroleo-2);overflow-x:auto;-webkit-overflow-scrolling:touch}
+nav .in{display:flex;gap:4px;padding:6px 10px}
+nav a{color:#fff;text-decoration:none;white-space:nowrap;padding:8px 12px;border-radius:999px;font-size:.95rem}
+nav a[aria-current="true"]{background:var(--laranja)}
+main{padding:8px 16px 40px}
+section{background:var(--papel);border:1px solid var(--linha);border-radius:var(--raio);padding:4px 20px 18px;margin:18px 0}
+.js section.oculta{display:none}
+h2{color:var(--petroleo);font-size:1.5rem;margin:18px 0 8px}
+h3{color:var(--petroleo);font-size:1.15rem;margin:18px 0 6px}
+h4{font-size:1.02rem;margin:14px 0 4px}
+table{border-collapse:collapse;width:100%;font-size:.95rem;display:block;overflow-x:auto}
+th,td{text-align:left;vertical-align:top;padding:7px 8px;border-bottom:1px solid var(--linha)}
+th{color:var(--suave);font-weight:600}
+blockquote{margin:10px 0;padding:10px 14px;background:var(--laranja-bg);border-left:4px solid var(--laranja);border-radius:6px;position:relative}
+blockquote p{margin:.3rem 0}
+.copiar{display:inline-block;margin-top:6px;font:inherit;font-size:.85rem;background:var(--petroleo);color:#fff;border:0;border-radius:999px;padding:5px 12px;cursor:pointer}
+.regra{font-size:1.25rem;font-weight:700;color:var(--petroleo);margin:14px 0 4px}
+.pacotes{display:grid;gap:12px;margin:12px 0}
+.pacote{display:block;text-decoration:none;color:var(--tinta);border:2px solid var(--petroleo);border-radius:var(--raio);padding:12px 14px;background:#fff}
+.pacote:hover{background:var(--laranja-bg)}
+.p-nome{display:block;font-weight:700;color:var(--petroleo);font-size:1.1rem}
+.p-desc{display:block}
+.p-tam{display:block;color:var(--suave);font-size:.85rem;margin-top:4px}
+ul.fontes li{margin:6px 0}
+.nota{color:var(--suave);font-size:.92rem}
+footer{padding:20px 16px 34px;color:var(--suave);font-size:.9rem}
+@media (max-width:520px){body{font-size:16px}header h1{font-size:1.6rem}section{padding:2px 14px 14px}}
+</style>
+</head>
+<body>
+<header><div class="in"><div class="tracinho"></div>
+<h1>Verificar antes de confiar</h1>
+<p>IA aplicada ao trabalho com evidências. Curso online de dois dias para técnicos de Angola, Cabo Verde, Guiné-Bissau, Moçambique e São Tomé e Príncipe.</p>
+</div></header>
+<nav aria-label="Secções"><div class="in">
+<a href="#curso">O curso</a><a href="#preparacao">Preparação</a><a href="#descarregar">Descarregar</a><a href="#checklists">Checklists</a><a href="#pedidos">Pedidos</a><a href="#glossario">Glossário</a><a href="#fontes">Fontes</a>
+</div></nav>
+<main>
+<section id="curso">
+<h2>O curso</h2>
+<p class="regra">A regra é uma: verificar antes de confiar.</p>
+<p>Todas as atividades são práticas e terminam com uma verificação do que a IA produziu. Os casos vêm de avaliações e inquéritos dos PALOP. Só se usam ferramentas gratuitas, e tudo funciona no telemóvel.</p>
+<p><a href="downloads/programa-do-curso.pdf" download>Programa do curso em PDF</a> <span class="nota">(55 KB)</span></p>
+<h3 id="objetivo-geral">Objetivo geral</h3>
+<p>Os participantes usam IA generativa em tarefas reais do seu trabalho
+e verificam sistematicamente o que ela produz antes de usar ou fazer
+circular o resultado.</p>
+<h3 id="para-quem">Para quem</h3>
+<p>Técnicos de governo, de monitoria e avaliação e de investigação de
+Angola, Cabo Verde, Guiné-Bissau, Moçambique e São Tomé e Príncipe, numa
+turma de 15 a 30 pessoas. Não é preciso experiência com IA. O curso é em
+português, em linguagem simples, com um glossário dos termos
+técnicos.</p>
+<h3 id="como-funciona">Como funciona</h3>
+<ul>
+<li>Online (Zoom, Teams ou Meet), com câmara desligada e o chat como
+canal principal.</li>
+<li>Todas as atividades são práticas e terminam com uma verificação do
+que a IA produziu.</li>
+<li>Trabalho individual e em duplas, em salas simultâneas.</li>
+<li>Só ferramentas gratuitas. Todas as atividades funcionam no
+telemóvel.</li>
+<li>Os casos vêm de avaliações e inquéritos dos PALOP: vacinação,
+mortalidade infantil e transferências monetárias para famílias com
+crianças.</li>
+</ul>
+<h3 id="dia-1.-introdução">Dia 1. Introdução</h3>
+<p><strong>No fim do dia, o participante:</strong></p>
+<ul>
+<li>explica em linguagem simples o que são IA generativa, modelo de
+linguagem, token, janela de contexto, alucinação, pedido (prompt), RAG,
+agente e skill;</li>
+<li>distingue tarefas em que a IA ajuda (reescrever, resumir,
+estruturar) de tarefas em que erra com frequência (números, referências,
+contexto local);</li>
+<li>escreve um pedido com tarefa, para quem, formato, limites e
+fonte;</li>
+<li>aplica a IA a uma tarefa real do seu trabalho e confere o resultado
+com um checklist curto.</li>
+</ul>
+<table>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 4%" />
+<col style="width: 72%" />
+</colgroup>
+<thead>
+<tr>
+<th>Bloco</th>
+<th>Min</th>
+<th>Atividade prática</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Abertura</td>
+<td>10</td>
+<td>Acordos da sessão; cada pessoa indica a tarefa que trouxe e a
+ferramenta que conseguiu abrir</td>
+</tr>
+<tr>
+<td>Como a IA funciona</td>
+<td>30</td>
+<td>Três perguntas à IA sobre indicadores do próprio país, comparadas
+com a tabela oficial do país</td>
+</tr>
+<tr>
+<td>Pedir bem</td>
+<td>25</td>
+<td>Reescrever um pedido fraco para resumir um policy brief de 2 páginas
+e conferir três frases no documento</td>
+</tr>
+<tr>
+<td>Intervalo</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td>O que a IA faz bem e mal</td>
+<td>30</td>
+<td>Classificar oito respostas reais da IA em «pode usar», «usar depois
+de conferir» e «não usar»</td>
+</tr>
+<tr>
+<td>A sua tarefa, com verificação</td>
+<td>40</td>
+<td>Em duplas: uma tarefa real do trabalho (relatório, nota técnica,
+termo de referência, ofício), verificada com o checklist. Há uma tarefa
+de reserva para quem não trouxer</td>
+</tr>
+<tr>
+<td>Fecho</td>
+<td>10</td>
+<td>Partilha de casos e preparação do Dia 2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dia-2.-avançado">Dia 2. Avançado</h3>
+<p><strong>No fim do dia, o participante:</strong></p>
+<ul>
+<li>restringe a IA a um conjunto fechado de documentos e exige a página
+de cada informação;</li>
+<li>aplica critérios de inclusão, extrai estudos para uma tabela e
+escreve uma síntese em que cada frase aponta para um estudo e uma
+página;</li>
+<li>explica como a definição de um indicador muda um número;</li>
+<li>codifica trechos qualitativos com IA e confere cada citação no texto
+original;</li>
+<li>transforma uma síntese numa página para a direção sem mudar o
+sentido do achado;</li>
+<li>transforma os pedidos que funcionaram em instruções
+reutilizáveis.</li>
+</ul>
+<table>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 4%" />
+<col style="width: 72%" />
+</colgroup>
+<thead>
+<tr>
+<th>Bloco</th>
+<th>Min</th>
+<th>Atividade prática</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Abertura</td>
+<td>10</td>
+<td>Retomar o fio condutor e confirmar o acesso ao material do dia</td>
+</tr>
+<tr>
+<td>Documentos fechados, revisão e síntese</td>
+<td>65</td>
+<td>Em duplas, com quatro avaliações de transferências monetárias em
+Angola e Moçambique: triagem, extração, síntese de cinco frases com
+página e verificação</td>
+</tr>
+<tr>
+<td>Intervalo</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td>Análise de dados</td>
+<td>30</td>
+<td>Quantitativo: conferir números da IA sobre vacinação em Moçambique
+com o quadro oficial. Qualitativo: codificar oito trechos e conferir
+cada citação no texto</td>
+</tr>
+<tr>
+<td>Comunicar evidências</td>
+<td>30</td>
+<td>Transformar o resumo de uma avaliação numa página para a direção;
+revisão cruzada entre duplas</td>
+</tr>
+<tr>
+<td>Fecho</td>
+<td>10</td>
+<td>Juntar os pedidos do curso num texto de instruções reutilizável;
+demonstração de um agente sobre uma pasta de PDF</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Duração.</strong> Cada dia tem 2h30. Se a turma tiver 2h por
+dia: no Dia 1, a classificação das oito respostas passa a exercício para
+casa e a abertura e o fecho ficam com 5 min cada; no Dia 2, o bloco
+«Comunicar evidências» passa a tarefa depois do curso. Se tiver 3h: no
+Dia 1, uma segunda ronda de verificação cruzada; no Dia 2, um exercício
+extra sobre um estudo publicado em três documentos e uma segunda
+passagem na codificação.</p>
+<h3 id="ferramentas">Ferramentas</h3>
+<table>
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 26%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Ferramenta</th>
+<th>Papel</th>
+<th>Conta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gemini e Gemini Notebook (notebook.google.com, antigo
+NotebookLM)</td>
+<td>Principal</td>
+<td>Conta Google pessoal, gratuita</td>
+</tr>
+<tr>
+<td>ChatGPT</td>
+<td>Reserva, com os mesmos pedidos</td>
+<td>Conta pessoal com e-mail, gratuita</td>
+</tr>
+</tbody>
+</table>
+<p>As ferramentas estão disponíveis nos cinco países. Os planos
+gratuitos têm limites diários de uso e de carregamento de ficheiros; as
+atividades foram desenhadas para caber nesses limites.</p>
+<h3 id="preparação-e-requisitos">Preparação e requisitos</h3>
+<p><strong>Uma semana antes do Dia 1, cada participante:</strong></p>
+<ol type="1">
+<li>Cria uma conta Google e uma conta ChatGPT, com e-mail pessoal.</li>
+<li>Faz o teste de acesso de 10 minutos, com o guião passo a passo:
+abrir o Gemini e fazer uma pergunta; abrir o Gemini Notebook, carregar
+um PDF de teste de 2 páginas e pedir uma frase com citação; abrir o
+ChatGPT.</li>
+<li>Responde ao formulário curto do teste (país, aparelho, rede, o que
+funcionou e o que foi bloqueado). As respostas decidem a ferramenta
+principal da turma.</li>
+<li>Descarrega o pacote de preparação e, antes de cada dia, o pacote
+desse dia (menos de 10 MB cada).</li>
+<li>Escolhe uma tarefa real do seu trabalho para o Dia 1, <strong>sem
+dados pessoais nem confidenciais</strong>.</li>
+</ol>
+<p><strong>Requisitos:</strong></p>
+<ul>
+<li>Computador ou telemóvel com navegador. Quem só tiver telemóvel faz
+todas as atividades, e no trabalho em dupla fica com o papel de
+verificar.</li>
+<li>Ligação à internet durante as sessões. Se a ligação falhar, cada
+atividade tem um caminho sem ligação, com as respostas gravadas e as
+folhas do pacote.</li>
+<li>Nenhum dado pessoal ou sensível entra nas ferramentas de IA. Os
+exercícios usam documentos públicos e dados sintéticos, declarados como
+tal.</li>
+</ul>
+
+</section>
+<section id="preparacao">
+<h2>Preparação e teste de acesso</h2>
+<p>Uma semana antes do Dia 1, faça o teste de acesso. Demora cerca de 10 minutos. Faça-o no aparelho e na rede que vai usar no curso.</p>
+<ol>
+<li><strong>Contas:</strong> crie uma conta Google e uma conta ChatGPT, com e-mail pessoal. São gratuitas.</li>
+<li><strong>Gemini:</strong> abra gemini.google.com (ou a app) e escreva «Explica em duas frases o que é um policy brief.».</li>
+<li><strong>Gemini Notebook:</strong> abra notebook.google.com, crie um caderno, carregue o PDF de teste (vem no pacote de preparação) e escreva «Em que página está a palavra "atraso"? Cita a frase.».</li>
+<li><strong>ChatGPT:</strong> abra chatgpt.com e faça a mesma pergunta do Gemini.</li>
+<li><strong>Formulário:</strong> responda ao formulário cujo link vem no e-mail do convite. As respostas decidem a ferramenta principal da turma.</li>
+</ol>
+<p><strong>Se alguma coisa não funcionar:</strong> anote a mensagem de erro e experimente noutra rede. Se não funciona na rede do trabalho e funciona na do telemóvel, a ferramenta pode estar bloqueada na rede do trabalho. Responda ao formulário na mesma.</p>
+<p><strong>Para o Dia 1:</strong> traga uma tarefa real do seu trabalho, <strong>sem dados pessoais nem confidenciais</strong>.</p>
+</section>
+<section id="descarregar">
+<h2>Descarregar</h2>
+<p>Descarregue cada pacote antes do dia correspondente, com boa ligação. Cada um tem menos de 10 MB e um LEIA-ME.</p>
+<div class="pacotes"><a class='pacote' href='downloads/preparacao.zip' download><span class='p-nome'>Preparação</span><span class='p-desc'>Programa do curso, guião e PDF do teste de acesso, glossário. Descarregue uma semana antes.</span><span class='p-tam'>preparacao.zip · 297 KB</span></a><a class='pacote' href='downloads/dia1.zip' download><span class='p-nome'>Dia 1</span><span class='p-desc'>Slides, folhas das atividades, checklist e respostas gravadas para as atividades.</span><span class='p-tam'>dia1.zip · 3,7 MB</span></a><a class='pacote' href='downloads/dia2.zip' download><span class='p-nome'>Dia 2</span><span class='p-desc'>Slides, folhas, checklists, extratos do A1 e do A4 e respostas gravadas.</span><span class='p-tam'>dia2.zip · 5,4 MB</span></a></div>
+<p class="nota">As respostas da IA incluídas nos pacotes foram gravadas antes do curso e não foram corrigidas: servem para verificar, não para citar.</p>
+</section>
+<section id="checklists">
+<h2>Checklists</h2>
+<h3>Checklist de verificação</h3>
+<p>Use antes de qualquer resposta da IA sair da sua mão.</p>
+<h4 id="ver-fonte">Fonte</h4>
+<ul>
+<li>Cada referência existe e foi encontrada num documento que tenho ou
+numa base de pesquisa, não na memória da IA.</li>
+<li>Autor, ano, título e instituição conferem com o documento.</li>
+<li>Sei de que fonte e de que ano é cada número.</li>
+<li>Se há duas fontes para o mesmo indicador, digo qual uso e
+porquê.</li>
+<li>O número não é velho demais para a pergunta.</li>
+</ul>
+<h4 id="ver-afirmações">Afirmações</h4>
+<ul>
+<li>Cada afirmação aponta para um documento e uma página.</li>
+<li>Abri a página indicada e o trecho está lá.</li>
+<li>O que não está em nenhum documento está marcado como
+inferência.</li>
+<li>A resposta trata da pergunta que fiz, e não de uma pergunta
+vizinha.</li>
+<li>O país, a província e a população são os do estudo.</li>
+</ul>
+<h4 id="ver-efeito">Efeito</h4>
+<ul>
+<li>Fica claro se o estudo encontrou efeito, não encontrou ou foi
+inconclusivo.</li>
+<li>Estudos descritivos (inquéritos de perceção, entrevistas) não
+aparecem como prova de efeito.</li>
+<li>Resultados de um subgrupo ou de um só distrito não aparecem como
+resultado geral.</li>
+<li>Sei se o efeito é só de uma componente ou de várias juntas.</li>
+<li>Quando um achado vem de um único estudo, isso está dito.</li>
+</ul>
+<h4 id="ver-números">Números</h4>
+<ul>
+<li>Cada número confere com o documento, na página indicada.</li>
+<li>Nenhum número foi arredondado, convertido ou «completado».</li>
+<li>Sei o que cada percentagem mede: percentagem de quê?</li>
+<li>A definição do indicador é a mesma quando comparo números.</li>
+<li>Pontos percentuais e percentagens não foram trocados.</li>
+<li>Se o próprio documento dá dois números diferentes, registei os dois
+com a página.</li>
+</ul>
+<h4 id="ver-critérios-e-sentido">Critérios e sentido</h4>
+<ul>
+<li>Os critérios foram aplicados como estão escritos, sem alargar nem
+apertar.</li>
+<li>As limitações dos estudos aparecem.</li>
+<li>O resumo não diz mais do que o documento.</li>
+</ul>
+<h4 id="ver-revisão-humana">Revisão humana</h4>
+<ul>
+<li>Os casos de fronteira foram decididos por uma pessoa, não pela
+IA.</li>
+<li>A qualidade de cada estudo foi avaliada por alguém que conhece o
+tema.</li>
+<li>Uma segunda pessoa conferiu números e trechos.</li>
+<li>O uso de IA está declarado.</li>
+</ul>
+<h4 id="ver-dados">Dados</h4>
+<ul>
+<li>Nenhum dado pessoal ou sensível entrou numa ferramenta não aprovada
+pela organização.</li>
+</ul>
+
+<h3>Checklist de simplificação</h3>
+<p>Use quando um texto longo passa a texto curto: resumo, nota para a
+direção, mensagem, apresentação. Compare cada frase do texto curto com o
+documento original.</p>
+<h4 id="sim-sentido">Sentido</h4>
+<ul>
+<li>O achado tem a mesma direção: efeito, sem efeito, efeito negativo ou
+inconclusivo.</li>
+<li>A força da afirmação é a mesma. «Muitas vezes» não passou a «em
+média»; «em alguns casos» não passou a «em geral»; «pode» não passou a
+«faz».</li>
+<li>Os resultados nulos e negativos continuam lá, e não só os
+positivos.</li>
+<li>O que é de um distrito, de um grupo ou de um período não passou a
+geral.</li>
+</ul>
+<h4 id="sim-números">Números</h4>
+<ul>
+<li>Cada número tem unidade e base: percentagem de quê, por mil de quê,
+em que ano.</li>
+<li>O número curto é o mesmo do original, ou o arredondamento está
+dito.</li>
+<li>Um número que mede uma coisa não passou a medir outra.</li>
+<li>Se o original dá um intervalo ou um «limite superior», o texto curto
+também o diz.</li>
+</ul>
+<h4 id="sim-fonte-e-limites">Fonte e limites</h4>
+<ul>
+<li>O texto curto diz de que estudo ou relatório vem cada achado.</li>
+<li>As limitações principais do estudo cabem numa frase e estão lá.</li>
+<li>O que é recomendação dos autores está separado do que é
+resultado.</li>
+</ul>
+<h4 id="sim-leitor">Leitor</h4>
+<ul>
+<li>Quem só ler o texto curto não vai tomar uma decisão diferente da que
+tomaria com o original.</li>
+</ul>
+
+</section>
+<section id="pedidos">
+<h2>Pedidos que funcionaram</h2>
+<p>Pedidos do curso, testados no Gemini e no Gemini Notebook a
+17/10/2026. Servem em qualquer ferramenta. Troque o que está entre
+parênteses retos. Depois de cada resposta, confira com o checklist.</p>
+<h3 id="perguntar-e-exigir-a-fonte">Perguntar e exigir a fonte</h3>
+<blockquote>
+<p>[A sua pergunta sobre um número.]</p>
+<p>De que fonte e de que ano é esse número? Indique a página ou o
+link.</p>
+</blockquote>
+<h3 id="um-pedido-com-as-cinco-partes">Um pedido com as cinco
+partes</h3>
+<blockquote>
+<p><strong>Tarefa:</strong> resume este documento em 5 frases.<br />
+<strong>Para quem:</strong> [quem vai ler, por exemplo um diretor
+provincial que não leu o documento].<br />
+<strong>Formato:</strong> frases curtas, cada uma terminada com a página
+entre parênteses.<br />
+<strong>Limites:</strong> usa só este documento; não acrescentes
+informação de fora; copia os números como estão; se uma frase for
+conclusão tua, marca-a com [inferência].<br />
+<strong>Fonte:</strong> o documento carregado.</p>
+</blockquote>
+<h3 id="um-texto-a-partir-de-um-documento">Um texto a partir de um
+documento</h3>
+<blockquote>
+<p><strong>Tarefa:</strong> escreve [um ofício, uma nota técnica, um
+e-mail] de uma página sobre [o assunto].<br />
+<strong>Para quem:</strong> [o destinatário]; tom formal e direto.<br />
+<strong>Formato:</strong> [as partes do texto]. Depois de cada número,
+indica a página do documento entre parênteses.<br />
+<strong>Limites:</strong> usa só o documento carregado; copia os números
+como estão; não inventes nomes, datas nem números de ofício; deixa [a
+completar] onde faltar informação.<br />
+<strong>Fonte:</strong> o documento em PDF.</p>
+</blockquote>
+<h3 id="triagem-de-estudos">Triagem de estudos</h3>
+<blockquote>
+<p>Trabalha só com os documentos carregados. Para cada documento, aplica
+os critérios de inclusão abaixo e responde: entra, não entra ou dúvida.
+Para cada decisão, indica o critério que decidiu, o trecho literal que a
+justifica e a página do PDF. Se um critério for ambíguo para um
+documento, responde «dúvida» e explica porquê; não decidas por mim. Não
+cites nada que não esteja nos documentos.<br />
+Critérios: [os seus critérios].</p>
+</blockquote>
+<h3 id="extração">Extração</h3>
+<blockquote>
+<p>Para o documento [nome], preenche os campos abaixo só com o que está
+no documento, com a página do PDF em cada campo. Se a informação não
+estiver no documento, escreve [não encontrado]. Copia os números como
+estão. Se o documento der dois números diferentes para a mesma coisa,
+mostra os dois com as páginas.<br />
+Campos: desenho do estudo; país e província; amostra (no início e no
+fim, por grupo); intervenção; desfechos medidos e quando; efeito
+encontrado (houve, não houve ou inconclusivo), com o número; se o número
+é de todos ou de um grupo ou distrito; limitações declaradas pelos
+autores.</p>
+</blockquote>
+<h3 id="síntese-a-partir-das-fichas">Síntese a partir das fichas</h3>
+<blockquote>
+<p>Com base só nas fichas de extração abaixo, escreve uma síntese de 5
+frases que responda à pergunta: [a sua pergunta]. Cada frase termina com
+o documento e a página entre parênteses. Diz quando um achado vem de um
+único estudo e quando é de um só distrito ou de um grupo. Marca com
+[inferência] o que não estiver nas fichas.<br />
+Fichas: [cole as fichas]</p>
+</blockquote>
+<p>No Gemini Notebook, o chat aceita pedidos até cerca de 3.900
+caracteres. Fichas mais longas vão para uma conversa nova do Gemini ou
+do ChatGPT.</p>
+<h3 id="verificação-numa-conversa-sem-histórico">Verificação numa
+conversa sem histórico</h3>
+<blockquote>
+<p>Abaixo está uma síntese. Os documentos em que se baseia estão
+carregados. Confere a síntese frase a frase. Para cada frase, mostra o
+trecho literal que a sustenta e a página do PDF, e classifica:
+sustentada; sustentada em parte (diz o que falta); não sustentada;
+inferência não marcada. Aponta também números que não aparecem nos
+documentos e resultados de um distrito ou de um grupo apresentados como
+gerais. Diz também que resultado importante dos documentos ficou de
+fora. Não reescrevas a síntese.<br />
+Síntese: [cole]</p>
+</blockquote>
+<h3 id="codificar-trechos-qualitativos">Codificar trechos
+qualitativos</h3>
+<blockquote>
+<p>Codifica cada trecho com um ou mais códigos do livro de códigos
+abaixo. Para cada código, justifica com uma citação literal do trecho,
+entre aspas. Não alteres as palavras das citações. Se nenhum código
+servir, usa C0. No fim, resume em três frases o que os trechos
+dizem.<br />
+Livro de códigos: [cole]<br />
+Trechos: [cole]</p>
+</blockquote>
+<p>Depois, pesquise cada citação no texto, palavra por palavra.</p>
+<h3 id="uma-página-para-a-direção">Uma página para a direção</h3>
+<blockquote>
+<p>Com base só nas páginas [indique] do documento carregado, escreve uma
+página para a direção sobre [o assunto]. Inclui: o que o programa fez,
+onde, três resultados com números, o que não melhorou e duas
+recomendações. Cada número leva a página entre parênteses. Não
+acrescentes nada que não esteja nessas páginas.</p>
+</blockquote>
+<h3 id="instruções-reutilizáveis">Instruções reutilizáveis</h3>
+<p>Cole no início de uma conversa, ou nas instruções de um projeto:</p>
+<blockquote>
+<p>És um assistente de trabalho com evidências. Segue sempre estas
+regras:<br />
+1. Trabalha só com os documentos ou o texto que eu te der. Se não
+tiveres a informação, diz que não tens.<br />
+2. Indica a página do PDF de cada informação que tirares de um
+documento.<br />
+3. Copia os números como estão. Não arredondes, não convertas, não
+completes.<br />
+4. Diz de que fonte e de que ano é cada número.<br />
+5. Marca com [inferência] tudo o que for conclusão tua.<br />
+6. Aplica os critérios que eu te der como estão escritos. Se um critério
+for ambíguo, pergunta.<br />
+7. Diz quando um resultado é de um grupo, de um distrito ou de um único
+estudo.<br />
+8. No fim de cada resposta, lista o que eu devo conferir.<br />
+9. Se eu colar dados pessoais, avisa-me e sugere que os retire.</p>
+</blockquote>
+
+</section>
+<section id="glossario">
+<h2>Glossário</h2>
+<p>Termos do curso, com o nome em inglês que aparece nas
+ferramentas.</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Termo (inglês)</th>
+<th>O que é</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IA generativa</strong> (generative AI)</td>
+<td>IA que produz texto, imagens ou som novos a partir de um pedido</td>
+</tr>
+<tr>
+<td><strong>Modelo de linguagem</strong> (large language model,
+LLM)</td>
+<td>Programa treinado com muito texto para prever a palavra seguinte. É
+o motor do Gemini, do ChatGPT e de outros</td>
+</tr>
+<tr>
+<td><strong>Pedido</strong> (prompt)</td>
+<td>O que escreve à IA: a tarefa, para quem, o formato, os limites e a
+fonte</td>
+</tr>
+<tr>
+<td><strong>Token</strong> (token)</td>
+<td>Pedaço de texto que o modelo processa; em média, um pouco menos do
+que uma palavra. Os limites das ferramentas contam-se em tokens</td>
+</tr>
+<tr>
+<td><strong>Janela de contexto</strong> (context window)</td>
+<td>Quanto texto o modelo consegue ter em conta de uma vez: o pedido, os
+documentos e a conversa. O que passa do limite fica de fora sem
+aviso</td>
+</tr>
+<tr>
+<td><strong>Alucinação</strong> (hallucination)</td>
+<td>Resposta que parece certa mas é inventada: um número, uma
+referência, uma citação</td>
+</tr>
+<tr>
+<td><strong>Inferência</strong> (inference)</td>
+<td>Conclusão que não está escrita no documento. Pode estar certa, mas
+tem de ser marcada</td>
+</tr>
+<tr>
+<td><strong>Conjunto fechado de documentos</strong> (grounding,
+sources)</td>
+<td>Trabalhar só com os documentos que carregou, sem a IA ir buscar
+informação a outro lado</td>
+</tr>
+<tr>
+<td><strong>Carregar ficheiro</strong> (upload)</td>
+<td>Enviar um PDF ou outro ficheiro para a ferramenta ler</td>
+</tr>
+<tr>
+<td><strong>Citação, fonte</strong> (citation, source)</td>
+<td>A indicação de onde vem cada informação. Confira sempre: pode
+apontar para o sítio errado</td>
+</tr>
+<tr>
+<td><strong>RAG</strong> (retrieval-augmented generation)</td>
+<td>Técnica em que a ferramenta procura trechos nos documentos e
+responde a partir deles. É o que faz o Gemini Notebook</td>
+</tr>
+<tr>
+<td><strong>Pesquisa na web</strong> (web search)</td>
+<td>A ferramenta procura na internet antes de responder. Útil para
+orientar; a fonte tem de ser aberta e conferida</td>
+</tr>
+<tr>
+<td><strong>Modo de raciocínio</strong> (thinking, reasoning)</td>
+<td>A ferramenta demora mais e mostra passos antes de responder. Não
+garante que a resposta esteja certa</td>
+</tr>
+<tr>
+<td><strong>Chat novo</strong> (new chat)</td>
+<td>Conversa sem o histórico anterior. Use-o para verificar o que outra
+conversa produziu</td>
+</tr>
+<tr>
+<td><strong>Instruções personalizadas</strong> (custom instructions,
+system prompt)</td>
+<td>Texto com regras que a ferramenta segue em todas as respostas</td>
+</tr>
+<tr>
+<td><strong>Projeto</strong> (project, notebook)</td>
+<td>Espaço na ferramenta que junta documentos e instruções para um
+trabalho</td>
+</tr>
+<tr>
+<td><strong>Agente</strong> (agent)</td>
+<td>IA que faz várias etapas sozinha (abrir ficheiros, procurar,
+escrever, verificar) até terminar uma tarefa</td>
+</tr>
+<tr>
+<td><strong>Skill</strong> (skill)</td>
+<td>Conjunto de instruções e ficheiros que ensina a ferramenta a fazer
+uma tarefa sempre da mesma forma</td>
+</tr>
+<tr>
+<td><strong>Dados sintéticos</strong> (synthetic data)</td>
+<td>Dados ou textos criados para um exercício. Têm de estar declarados
+como tal</td>
+</tr>
+<tr>
+<td><strong>Anonimizar</strong> (anonymize)</td>
+<td>Tirar nomes e outros dados que identificam pessoas antes de usar uma
+ferramenta</td>
+</tr>
+</tbody>
+</table>
+<h3 id="termos-de-avaliação-usados-nos-exercícios">Termos de avaliação
+usados nos exercícios</h3>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Termo (inglês)</th>
+<th>O que é</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Grupo de comparação</strong> (comparison, control
+group)</td>
+<td>Pessoas que não receberam o programa, usadas para comparar</td>
+</tr>
+<tr>
+<td><strong>Diferença nas diferenças</strong>
+(difference-in-differences)</td>
+<td>Compara a mudança ao longo do tempo no grupo que recebeu com a
+mudança no grupo de comparação</td>
+</tr>
+<tr>
+<td><strong>Regressão descontínua</strong> (regression
+discontinuity)</td>
+<td>Compara quem está logo acima e logo abaixo de um limite (uma idade,
+uma fronteira)</td>
+</tr>
+<tr>
+<td><strong>Linha de base</strong> (baseline)</td>
+<td>Recolha de dados antes do programa ou no seu início</td>
+</tr>
+<tr>
+<td><strong>Atrito</strong> (attrition)</td>
+<td>Pessoas ou agregados que não foram encontrados na recolha
+seguinte</td>
+</tr>
+<tr>
+<td><strong>Ponto percentual</strong> (percentage point)</td>
+<td>Diferença entre duas percentagens: de 20% para 25% são 5 pontos
+percentuais, ou 25% mais</td>
+</tr>
+</tbody>
+</table>
+
+</section>
+<section id="fontes">
+<h2>Fontes oficiais</h2>
+<p>Os documentos usados no curso, nos sites oficiais. Nas folhas, cada atividade indica as páginas a abrir.</p>
+<h3>Bloco A do Dia 2</h3><ul class='fontes'>
+<li><a href='https://www.unicef.org/angola/media/3826/file/Relat%C3%B3rio%20Impacto%20do%20Valor%20Crian%C3%A7a%20PT.pdf' rel='noopener'>A1. O Impacto do Valor Criança: Programa Piloto de Transferências Sociais Monetárias em Angola. UNICEF Innocenti, 2023</a></li>
+<li><a href='https://www.unicef.org/mozambique/media/4791/file/Avalia%C3%A7%C3%A3o%20do%20Impacto%20da%20Subcomponente%20Subs%C3%ADdio%20para%20Crian%C3%A7a%20de%200%20a%202%20anos.pdf' rel='noopener'>A2. Avaliação do Impacto da Subcomponente Subsídio para Criança de 0 a 2 anos, Nampula. AIR e UNICEF, 2022 (resumo)</a></li>
+<li><a href='https://www.unicef.org/mozambique/media/4831/file/S%C3%8DNTESE%20da%20Avalia%C3%A7%C3%A3o%20do%20Impacto%20do%20Subs%C3%ADdio%20para%20Crian%C3%A7a%20de%200%20a%202%20anos%20em%20Nampula.pdf' rel='noopener'>A2. Síntese de 4 páginas da mesma avaliação. UNICEF Moçambique, 2022</a></li>
+<li><a href='https://www.wider.unu.edu/sites/default/files/IGM-report-vls-2025-por.pdf' rel='noopener'>A3. Avaliação do Impacto do Programa de Subsídio Social Básico no Bem-Estar dos Idosos em Moçambique. UNU-WIDER, 2025</a></li>
+<li><a href='https://cdn.odi.org/media/documents/8313.pdf' rel='noopener'>A4. Transforming cash transfers: beneficiary and community perspectives on the PSSB in Mozambique. ODI e ANSA, briefing, 2013</a></li>
+</ul>
+<h3>Dia 1</h3><ul class='fontes'>
+<li><a href='https://www.wider.unu.edu/sites/default/files/Publications/Policy-brief/PDF/IGMPB2025-2-PSSB-por.pdf' rel='noopener'>Policy brief: Melhorando a eficácia do Programa Subsídio Social Básico para idosos (PSSB) em Moçambique. UNU-WIDER, 2025</a></li>
+<li><a href='https://dhsprogram.com/pubs/pdf/SR295/SR295.pdf' rel='noopener'>Angola: Inquérito de Indicadores Múltiplos e de Saúde (IIMS) 2023-2024, Relatório de Síntese</a></li>
+<li><a href='https://dhsprogram.com/pubs/pdf/SR287/SR287.pdf' rel='noopener'>Moçambique: Inquérito Demográfico e de Saúde 2022-23, Relatório de Síntese</a></li>
+<li><a href='https://dhsprogram.com/pubs/pdf/FR203/FR203.pdf' rel='noopener'>Cabo Verde: Inquérito Demográfico e de Saúde Reprodutiva (IDSR-II) 2005</a></li>
+<li><a href='https://www.stat-guinebissau.com/Menu_principal/Pubica%C3%A7%C3%B5es/MICS/G-B_MICS6_Statistical_Snapshot.pdf' rel='noopener'>Guiné-Bissau: MICS6 2018-2019, desdobráveis estatísticos (INE da Guiné-Bissau)</a></li>
+<li><a href='https://data.unicef.org/' rel='noopener'>Cobertura vacinal e mortalidade nos cinco países: base de dados da UNICEF (WUENIC e UN IGME)</a></li>
+</ul>
+<h3>Extensão do Dia 2: pré-escola em Gaza</h3><ul class='fontes'>
+<li><a href='https://3ieimpact.org/sites/default/files/2017-11/3ie_mozambique_ie001.pdf' rel='noopener'>3ie Impact Evaluation 001, 2013</a></li>
+<li><a href='https://documents1.worldbank.org/curated/en/756171513961080112/pdf/WPS8290.pdf' rel='noopener'>Banco Mundial, Policy Research Working Paper 8290, 2017</a></li>
+<li><a href='https://documents1.worldbank.org/curated/en/344611468323988634/pdf/678070REVISED000MozambiqueE2P0final.pdf' rel='noopener'>Banco Mundial, nota «From Evidence to Policy»</a></li>
+</ul>
+</section>
+</main>
+<footer><div class="in">Verificar antes de confiar · IA aplicada ao trabalho com evidências · Curso de Caio de Souza Castro. Os documentos citados pertencem aos respetivos autores e instituições.</div></footer>
+<script>
+(function(){
+  document.documentElement.classList.add('js');
+  var secs=[].slice.call(document.querySelectorAll('main > section'));
+  var links=[].slice.call(document.querySelectorAll('nav a'));
+  function mostra(id){
+    if(!document.getElementById(id)) id='curso';
+    secs.forEach(function(s){s.classList.toggle('oculta',s.id!==id);});
+    links.forEach(function(a){a.setAttribute('aria-current',a.getAttribute('href')==='#'+id?'true':'false');});
+  }
+  window.addEventListener('hashchange',function(){mostra(location.hash.slice(1));window.scrollTo(0,0);});
+  mostra(location.hash.slice(1)||'curso');
+  [].slice.call(document.querySelectorAll('#pedidos blockquote')).forEach(function(b){
+    var bt=document.createElement('button');bt.type='button';bt.className='copiar';bt.textContent='Copiar pedido';
+    bt.addEventListener('click',function(){
+      var t=b.innerText.replace(/Copiar pedido$/,'').trim();
+      var feito=function(){bt.textContent='Copiado';setTimeout(function(){bt.textContent='Copiar pedido';},1500);};
+      if(navigator.clipboard){navigator.clipboard.writeText(t).then(feito);}else{var a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove();feito();}
+    });
+    b.appendChild(bt);
+  });
+})();
+</script>
+</body>
+</html>
