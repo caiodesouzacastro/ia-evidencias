@@ -1,0 +1,37 @@
+Codifica cada trecho com um ou mais códigos do livro de códigos abaixo. Para cada código, justifica com uma citação literal do trecho, entre aspas. Não alteres as palavras das citações. Se nenhum código servir, usa C0. No fim, resume em três frases o que os trechos dizem sobre o programa.
+
+Livro de códigos
+C1 Alimentação: comida, refeições, dieta das crianças ou da família
+C2 Decisão: quem decide como se gasta o dinheiro em casa
+C3 Produção e poupança: sementes, cultivo, negócio, empréstimo, poupança
+C4 Crianças: saúde e escola: hospital, medicamentos, escola, roupa e sapatos das crianças
+C5 Pagamentos: valor, calendário, atrasos, forma de pagamento
+C6 Efeito negativo ou conflito: brigas, perdas, situações que pioraram
+C0 Não cabe: nenhum código serve
+Um trecho pode ter mais do que um código.
+
+Trechos
+
+Trecho 1 (Valor Criança, p. 40 do PDF; prestadora de cuidados, grupo focal no Uíge)
+«Vou buscar o dinheiro e, quando chego a casa, mostro-o ao meu marido. Fizemos a criança juntos, por isso somos os dois responsáveis por decidir como gastar o dinheiro. Às vezes dou-lhe parte do dinheiro, para ele ficar entusiasmado, mas a maior parte fica comigo para comprar coisas e fazemos planos juntos para essas coisas.»
+
+Trecho 2 (Valor Criança, Angola, p. 67 do PDF; código da entrevista no relatório: UMIDI6F)
+«Agora elas [as crianças] estão bem. Agora, os alimentos que não podiam comer antes estão a comer. Antes não podíamos comprar peixe, carne – não podíamos comprar coisas que eram caras.»
+
+Trecho 3 (Valor Criança, p. 77 do PDF; participante do grupo focal, sexo feminino, Moxico)
+«Durante o ano em que não recebemos o dinheiro, esperámos muito e o dinheiro não veio. Muitos de nós não cultivámos porque não tínhamos sementes, não tínhamos dinheiro para comprar sementes. Passámos o ano inteiro sem cultivar. Depois de recebermos o dinheiro, comprámos sementes de milho, roupa para as crianças, cobertores para o tempo de frio, calçados e muitas outras coisas.»
+
+Trecho 4 (Valor Criança, p. 78 do PDF; participante do grupo focal, sexo feminino, Uíge)
+«De seis em seis meses é melhor porque o montante será acumulado e, assim, também podemos comprar algo que esteja a faltar em casa. Se for de três em três meses, não poderemos comprar o que precisamos porque o montante não será suficiente. Para quem paga renda, onde vivemos os senhorios só aceitam o pagamento de seis em seis meses. Depois de seis meses, precisamos de ter o montante disponível.»
+
+Trecho 5 (Valor Criança, Angola, p. 41 do PDF; uma inquirida; código da entrevista no relatório: UMIDI2M)
+«O homem é que decide, toma a decisão, 'minha mulher vamos fazer isto, vamos fazer aquilo'. Mesmo quando ele chega a uma conclusão e depois faz o que tu queres, sim. Dentro de casa, é o homem que toma essa decisão.»
+
+Trecho 6 (SINTÉTICO; fala atribuída a uma beneficiária em Moçambique)
+«Ah, com esses meticais fiquei rica! Deu para um quilo de açúcar e ainda sobrou para o chapa até ao posto de pagamento.»
+
+Trecho 7 (SINTÉTICO; fala atribuída a um cuidador em Angola)
+«O dinheiro chegou e os miúdos voltaram à escola. Mas foi só naquele mês; depois do atraso, voltaram a ficar em casa.»
+
+Trecho 8 (SINTÉTICO; fala atribuída a uma beneficiária em Moçambique, num grupo focal em que as outras participantes falaram bem do programa)
+«Eu sou a única aqui que pensa assim, mas na minha casa o dinheiro trouxe brigas. O meu marido quer decidir tudo e eu fico sem nada.»
