@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /ia-evidencias/equipa-
+Disallow: /equipa-
