@@ -4,7 +4,7 @@ Página de apoio dos participantes do curso «IA para quem trabalha com evidênc
 
 Publicada em <https://caiodesouzacastro.github.io/ia-evidencias/>.
 
-- `index.html`: a página, com quatro secções: antes da oficina, cadernos, depois de cada manhã e desafio de 5 dias.
+- `index.html`: a página, com quatro secções: antes da oficina, cadernos, depois de cada módulo e desafio de 5 dias.
 - `downloads/`: o «antes da oficina», os cadernos, os pacotes «depois» e, em `depois/`, os mesmos PDF soltos.
 - `assets/`: logótipos e fontes (Bricolage Grotesque e Public Sans, licença SIL Open Font License).
 
