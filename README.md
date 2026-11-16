@@ -1,6 +1,6 @@
 # IA para quem trabalha com evidências
 
-Página de apoio dos participantes do curso «IA para quem trabalha com evidências. Curso prático para gestão pública, avaliação e investigação» (versão 3.0, 18 e 19 de Novembro de 2026).
+Página de apoio dos participantes do curso «IA para quem trabalha com evidências. Curso prático para gestão pública, avaliação e investigação» (versão 4.0, 18 e 19 de Novembro de 2026).
 
 Publicada em <https://caiodesouzacastro.github.io/ia-evidencias/>.
 
